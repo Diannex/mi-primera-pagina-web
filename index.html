@@ -17,11 +17,27 @@
             margin: 0 auto;
             padding: 20px;
         }
-        h1 {
+        h1, h2 {
             color: #007bff;
         }
         p {
             line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #007bff;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -30,18 +46,63 @@
         <header>
             <h1>Portafolio de Diana Osores</h1>
         </header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
         <main>
-            <section>
+            <section id="about">
                 <h2>Sobre mí</h2>
                 <p>Soy Diana Osores, una apasionada especialista en Soporte TI con una sólida experiencia en el área de logística. Mi pasión por la tecnología y mi compromiso con la excelencia me han llevado a trabajar en el corazón de la infraestructura tecnológica de una empresa líder en el sector logístico.</p>
                 <p>Con una trayectoria que abarca desde la resolución de problemas técnicos hasta la implementación de soluciones innovadoras, me he destacado por mi capacidad para optimizar procesos y mejorar la eficiencia operativa. Mi enfoque centrado en el cliente y mi habilidad para comunicar de manera efectiva me han permitido colaborar estrechamente con equipos multidisciplinarios y garantizar una experiencia de usuario excepcional.</p>
                 <p>Mi compromiso con el aprendizaje continuo y mi pasión por la programación me han llevado a buscar oportunidades para expandir mis habilidades en este campo emocionante. Estoy ansiosa por contribuir con mi experiencia en Soporte TI y mi entusiasmo por la programación a un equipo dinámico y orientado a resultados. ¡Estoy lista para enfrentar nuevos desafíos y llevar mis habilidades al siguiente nivel!</p>
             </section>
+
+            <section id="skills">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Soporte técnico</li>
+                    <li>Resolución de problemas</li>
+                    <li>Gestión de proyectos</li>
+                    <li>Comunicación efectiva</li>
+                    <li>Trabajo en equipo</li>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Proyectos destacados</h2>
+                <ul>
+                    <li><a href="#">Proyecto 1</a> - Descripción breve del proyecto y tu rol en él.</li>
+                    <li><a href="#">Proyecto 2</a> - Descripción breve del proyecto y tu rol en él.</li>
+                    <li><a href="#">Proyecto 3</a> - Descripción breve del proyecto y tu rol en él.</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contacto</h2>
+                <p>Puedes contactarme a través de:</p>
+                <ul>
+                    <li>Email: diana.osores@example.com</li>
+                    <li>Teléfono: (123) 456-7890</li>
+                </ul>
+            </section>
         </main>
+
         <footer>
+            <div class="social-links">
+                <a href="https://linkedin.com/tunombre" target="_blank">LinkedIn</a>
+                <a href="https://github.com/tunombre" target="_blank">GitHub</a>
+                <a href="https://twitter.com/tunombre" target="_blank">Twitter</a>
+            </div>
             <p>&copy; 2024 Diana Osores - Todos los derechos reservados.</p>
         </footer>
     </div>
 </body>
 </html>
-
